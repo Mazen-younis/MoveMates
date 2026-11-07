@@ -1,0 +1,48 @@
+# MoveMates — local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.p8
+*.key
+
+# Python / FastAPI
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Local databases, exports and logs
+*.sqlite
+*.sqlite3
+*.db
+*.sql.gz
+*.dump
+*.log
+
+# User-generated content (not part of the application source)
+static/profile_pics/
+movemates_backend/static/profile_pics/
+
+# Xcode and Swift development artefacts
+DerivedData/
+build/
+.build/
+.swiftpm/
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Editor / operating system files
+.DS_Store
+._*
+__MACOSX/
+.idea/
+.vscode/
