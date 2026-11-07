@@ -1,0 +1,9 @@
+# Python dependencies for the original FastAPI backend.
+# Install in a local virtual environment. No database credentials belong in this file.
+fastapi
+uvicorn[standard]
+SQLAlchemy
+psycopg2-binary
+python-dotenv
+passlib[bcrypt]
+python-multipart
